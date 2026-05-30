@@ -2,7 +2,7 @@
 
 Official implementation of:
 
-**COUFGOT: A Coupled Unbalanced Filter Graph Optimal Transport Framework for Single-Cell Multi-omics Alignment and Cross-Modal Translation**
+**Single-Cell Multi-Omics Data Alignment and TranslationBased on CO-Unbalanced Filter Graph Optimal Transport**
 
 ---
 
@@ -31,16 +31,15 @@ The method is evaluated on multiple RNA–ATAC and RNA–ADT datasets from publi
 ```text
 COUFGOT
 │
-├── model/
-│
-├── crossmo_main.py
-├── diag_main.py
-├── vertical_main_samp.py
-├── train_test.py
+├── main_COUFGOT/
+│   ├── crossmo_main.py
+│   ├── diag_main.py
+│   ├── vertical_main_samp.py
+│   ├── train_test.py
+│   └── model/
 │
 ├── data/
-│   ├── Supplementary Table.xlsx
-│   └── Dataset description
+│   └── Supplementary Table.xlsx
 │
 ├── requirements.txt
 └── README.md
@@ -53,7 +52,7 @@ COUFGOT
 Create environment:
 
 ```bash
-conda create -n coufgot python=3.10
+conda create -n coufgot python=3.12
 
 conda activate coufgot
 ```
@@ -76,7 +75,7 @@ Dataset information and accession numbers are provided in:
 data/Supplementary Table.xlsx
 ```
 
-Due to repository size limitations, processed datasets are provided separately.
+All processed datasets used in the experiments are provided in the `master` branch under the `data/` directory.
 
 ### Dataset Directory
 
@@ -111,38 +110,6 @@ python crossmo_main.py
 
 ---
 
-## Evaluation Metrics
-
-Alignment Tasks
-
-* FOSCTTM
-* ARI
-* NMI
-
-Cross-modal Translation Tasks
-
-* MSE
-* AUROC
-* ARI
-* NMI
-
----
-
 ## Citation
 
-```bibtex
-@inproceedings{COUFGOT2026,
-  title={COUFGOT: A Coupled Unbalanced Filter Graph Optimal Transport Framework for Single-Cell Multi-omics Alignment and Cross-Modal Translation},
-  author={Li, Weining},
-  booktitle={APBC},
-  year={2026}
-}
-```
-
 ---
-
-## Contact
-
-Weining Li
-
-Xiamen University
