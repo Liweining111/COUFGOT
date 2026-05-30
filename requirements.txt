@@ -1,0 +1,37 @@
+# Core scientific computing
+numpy==1.26.4
+scipy==1.15.2
+pandas==2.2.3
+scikit-learn==1.5.2
+
+# Deep learning
+torch==2.2.2
+torch-geometric==2.6.1
+torch-cluster==1.6.3
+torch-scatter==2.1.2
+torch-sparse==0.6.18
+torch-spline-conv==1.2.2
+
+# Optimal Transport
+POT==0.9.6
+
+# Single-cell genomics
+scanpy==1.11.0
+anndata==0.11.3
+
+# Data processing
+h5py==3.13.0
+
+# Visualization
+matplotlib==3.10.1
+seaborn==0.13.2
+umap-learn==0.5.7
+
+# Utilities
+scikit-misc==0.5.1
+numba==0.61.0
+llvmlite==0.44.0
+pillow==11.0.0
+networkx==3.3
+joblib==1.4.2
+tqdm==4.67.1
