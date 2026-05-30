@@ -21,7 +21,7 @@ The method is evaluated on multiple RNA–ATAC and RNA–ADT datasets from publi
 ## Framework
 
 <p align="center">
-<img src="framework.png" width="85%">
+<img src="img/Flowchart.svg" width="85%">
 </p>
 
 ---
