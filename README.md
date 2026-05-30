@@ -112,4 +112,6 @@ python crossmo_main.py
 
 ## Citation
 
+If this tool is helpful for your research, please cite COUFGOT.
+
 ---
