@@ -75,15 +75,16 @@ Dataset information and accession numbers are provided in:
 data/Supplementary Table.xlsx
 ```
 
-All processed datasets used in the experiments are provided in the `master` branch under the `data/` directory.
+The datasets used in this study are available in the `master` branch under the `data/` directory.
 
 ### Dataset Directory
 
 ```text
-data/
-├── vertical/
-├── diagonal/
-└── crossmo/
+master
+└── data/
+    ├── vertical/
+    ├── diagonal/
+    └── crossmo/
 ```
 
 ---
